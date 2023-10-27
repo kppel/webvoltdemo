@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0.93%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        4,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc17953bf72249ba9995ace0411f1a2a",
+    "_text_": "www.docs.kony.com",
+    "_top_": {
+        "type": "string",
+        "value": "12.01%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "97.33%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchDesc3",
+    "info": null,
+    "isvisible": true,
+    "kuid": "h81889025c2249c1bf6bb8b75373de0b",
+    "linkskin": "sda7680138ed4501a999ff371f9ec76b",
+    "name": "kony.ui.RichText",
+    "parent": "flexScrollDesc3",
+    "pf": "Form4",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

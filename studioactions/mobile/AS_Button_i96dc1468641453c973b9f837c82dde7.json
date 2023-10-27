@@ -1,0 +1,22 @@
+{
+    "AS_Button_i96dc1468641453c973b9f837c82dde7": {
+        "id": "AS_Button_i96dc1468641453c973b9f837c82dde7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e11c340508114b19a0e524398a2fbc45",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "rotateImages",
+            "display": "rotateImages",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

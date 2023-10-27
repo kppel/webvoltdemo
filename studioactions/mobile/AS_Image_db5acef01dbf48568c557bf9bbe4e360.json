@@ -1,0 +1,34 @@
+{
+    "AS_Image_db5acef01dbf48568c557bf9bbe4e360": {
+        "id": "AS_Image_db5acef01dbf48568c557bf9bbe4e360",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmBallImg",
+            "type": "forms",
+            "platform": null,
+            "KUID": "g9d5961534c44712a642e88851f9b85e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b271368525954d28a306d28d77401729",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setImageAnimal",
+            "display": "setImageAnimal",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

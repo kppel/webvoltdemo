@@ -1,0 +1,23 @@
+{
+    "AS_Button_d6883200b26a4dd5bf381f8341420b52": {
+        "id": "AS_Button_d6883200b26a4dd5bf381f8341420b52",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form3",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gfa963f29a06489a880c58dc5a7e488b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_d282d55ed10848e39e9e26bdb5aef42a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.browser.requestURLConfig = {\n  URL:\"http://maps.google.com/maps\",\n  requestMethod: constants.BROWSER_REQUEST_METHOD_GET\n};",
+            "parentId": null
+        }]
+    }
+}

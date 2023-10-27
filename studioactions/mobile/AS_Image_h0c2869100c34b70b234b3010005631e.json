@@ -1,0 +1,97 @@
+{
+    "AS_Image_h0c2869100c34b70b234b3010005631e": {
+        "id": "AS_Image_h0c2869100c34b70b234b3010005631e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "imagesrc"
+        }, {
+            "datatype": "boolean",
+            "name": "issuccess"
+        }],
+        "contextObj": {
+            "name": "frmBallImg",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g9d5961534c44712a642e88851f9b85e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR_f7b6d82d29f944999db6e99d9fdffc89",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_ASYNC_SERVICE_dce4ff68673746bcb7d5aa28301a0327",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "glide",
+                "type": "integration",
+                "operationname": "DrawableImage",
+                "serviceid": "ac82cfb1-76a4-4980-9f9c-c7d186dbf57f",
+                "operationid": "318596"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_a4b54573954f4d428c44c140c6fcbffd",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_ASYNC_SERVICE_dce4ff68673746bcb7d5aa28301a0327",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "_IF_CONDITION_h85c7705f4674ef5a49f2c253d8dcd85",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValue": "DrawableImage.opstatus",
+                "rightValue": "0",
+                "leftValueType": "value",
+                "rightValueType": "value",
+                "operator": "==="
+            }],
+            "parentId": "INVOKE_ASYNC_SERVICE_dce4ff68673746bcb7d5aa28301a0327",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "_ELSE_CONDITION_c27d2f37d012405b801fff133fb48840",
+            "type": "ELSE_CONDITION",
+            "conditions": [],
+            "parentId": "INVOKE_ASYNC_SERVICE_dce4ff68673746bcb7d5aa28301a0327",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT_fde2ebd36cd94cbc8b4ade6282dbaa47",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Data fetch failed! Please try again later.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "_ELSE_CONDITION_c27d2f37d012405b801fff133fb48840",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

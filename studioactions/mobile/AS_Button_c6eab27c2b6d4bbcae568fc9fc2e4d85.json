@@ -1,0 +1,22 @@
+{
+    "AS_Button_c6eab27c2b6d4bbcae568fc9fc2e4d85": {
+        "id": "AS_Button_c6eab27c2b6d4bbcae568fc9fc2e4d85",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e5a2a769b044436ba092920364d002b9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "checkValidation",
+            "display": "checkValidation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

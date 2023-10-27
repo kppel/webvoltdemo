@@ -1,0 +1,43 @@
+{
+    "AS_Button_aa823ec613ef44e4adbf1f33b9bea5d8": {
+        "id": "AS_Button_aa823ec613ef44e4adbf1f33b9bea5d8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form3",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gfa963f29a06489a880c58dc5a7e488b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_LOCAL_VARIABLE_ee99eed7c47f43da94caa8efee482458",
+            "type": "ADD_LOCAL_VARIABLE",
+            "name": "fileImage",
+            "isGlobal": false,
+            "valuetype": "constant",
+            "datatype": "string",
+            "value": "\"\""
+        }, {
+            "id": "ADD_SNIPPET_f008dc6e8506468abf64ba11ebbb704e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var randnum = 1 + Math.floor( Math.random() * 34 );\nfileImage = \"spaandroid/images/440/resources/common/p\" + randnum + \".gif\";"
+        }, {
+            "id": "INVOKE_FUNCTION__d5b9583eae3043e49188ecfe328c9441",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setImage",
+            "display": "setImage",
+            "inputparams": [{
+                "name": "fileImage",
+                "value": "fileImage"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

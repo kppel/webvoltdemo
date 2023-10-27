@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "73dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0a35168fdc04e3e8fde8e1a1de33cf1",
+    "_src_": "voltmxmp_sm_chevron_right_1.png",
+    "_top_": {
+        "type": "string",
+        "value": "244dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "imgChevron",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": false,
+    "kuid": "uc6eb3626de647968f88ddc106d817b6",
+    "name": "kony.ui.Image2",
+    "parent": "flxCover",
+    "pf": "userwidgetmodel",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

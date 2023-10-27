@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "20"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4cec60de0d3407ebe9e31d307606d39",
+    "_text_": "番地",
+    "_top_": {
+        "type": "string",
+        "value": "353dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "CopyLabel0bfc560eca12e43",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c014b0422c144006bf70cb8351f4f9ba",
+    "name": "kony.ui.Label",
+    "parent": "FlexScrollContainer0d8f1af1b00d645",
+    "pf": "frmNext1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

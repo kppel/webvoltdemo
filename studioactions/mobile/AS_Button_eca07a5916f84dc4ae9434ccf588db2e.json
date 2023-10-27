@@ -1,0 +1,58 @@
+{
+    "AS_Button_eca07a5916f84dc4ae9434ccf588db2e": {
+        "id": "AS_Button_eca07a5916f84dc4ae9434ccf588db2e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c5a50a9b6be94128b6860349042fd5ce"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ROTATE_ACTION_3D_f746617d8d8e474788d000261fbcbc26",
+            "type": "ROTATE_ACTION_3D",
+            "itemType": "FORM",
+            "itemId": "Form1",
+            "widgetId": "flxImage",
+            "itemKUID": "c5a50a9b6be94128b6860349042fd5ce",
+            "widgetKUID": "ib11d554670a4babac605b3a47d0642b",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "anchorPoint": {
+                    "x": "50",
+                    "y": "50"
+                },
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate3d": "45",
+                "rotateX": "1",
+                "rotateY": "0",
+                "rotateZ": "0",
+                "opacity": "100",
+                "displayAnimationId": "",
+                "duration": "250",
+                "delay": "0",
+                "iterationCount": "1",
+                "x": "50",
+                "y": "50"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "voltmx.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "ROTATE_ACTION_3D_f746617d8d8e474788d000261fbcbc26",
+            "displayAnimationId": "ROTATE_ACTION_3D_f746617d8d8e474788d000261fbcbc26",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.flxImage"
+        }]
+    }
+}

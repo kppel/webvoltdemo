@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s9d57b6a5f994c449cbffc770c527803",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "breakpointInfo": {
+        "b1": {
+            "width": 1366
+        },
+        "b2": {
+            "width": 1024
+        },
+        "b3": {
+            "width": 640
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "CardWithPeek"
+    ],
+    "containerweight": 100,
+    "currentLocale": "default",
+    "device": "iPhone13ProMax",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "globalUserWidgetRefs": [],
+    "id": "userwidgetmodel",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "isvisible": true,
+    "kuid": "u2933fada04c40e2ac3daa1b0632b71c",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "iPhone13ProMax",
+    "prevPlatform": "iphone",
+    "retainscrollposition": false,
+    "titleBarSkin": "scfaa727bc9747abb88f625d80a005d5",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form"
+}

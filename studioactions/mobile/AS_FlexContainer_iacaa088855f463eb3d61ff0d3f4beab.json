@@ -1,0 +1,35 @@
+{
+    "AS_FlexContainer_iacaa088855f463eb3d61ff0d3f4beab": {
+        "id": "AS_FlexContainer_iacaa088855f463eb3d61ff0d3f4beab",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBall",
+            "type": "forms",
+            "platform": null,
+            "KUID": "g2419ab6da104320a9814f8c6117997f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_afb0e0c5a7bf4d32b411fe33da335dcc",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_CONFIRMATION",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "No3",
+            "messageType": "constant",
+            "alertHandler": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

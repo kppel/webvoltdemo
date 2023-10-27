@@ -1,0 +1,33 @@
+{
+    "AS_FlexContainer_e110e1fb7dde4dfcbe02c3a24ba9e624": {
+        "id": "AS_FlexContainer_e110e1fb7dde4dfcbe02c3a24ba9e624",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmBallImg",
+            "type": "forms",
+            "platform": null,
+            "KUID": "g9d5961534c44712a642e88851f9b85e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onTouchStart_dbb59aed9a9840eb95ed7a8cb151a02c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "rotateImages",
+            "display": "rotateImages",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

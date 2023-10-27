@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s26ffb7d93174e21be0cc5e04d990c24",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblDummy",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "efc6bd3ec6d64e15a8ed142ffed942aa",
+    "name": "kony.ui.Label",
+    "parent": "flexAPIs",
+    "pf": "tmpSegAPI",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

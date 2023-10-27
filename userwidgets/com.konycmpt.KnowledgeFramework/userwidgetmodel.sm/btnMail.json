@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_skin_": "s66c6c3119f646bc88b4b7f67a584f53",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sc468dce6e264dc0ade7a4afbc067bd5",
+    "id": "btnMail",
+    "ide_onClick": "AS_Button_d0d6e06209e64c34a6658785bf0bd017",
+    "info": null,
+    "isvisible": true,
+    "kuid": "u4ead4ed2d754ab4971771571e2c7818",
+    "name": "kony.ui.Button",
+    "parent": "flexAcc2",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 1
+}

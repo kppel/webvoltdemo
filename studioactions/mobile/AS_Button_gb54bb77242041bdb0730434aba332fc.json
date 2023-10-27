@@ -1,0 +1,28 @@
+{
+    "AS_Button_gb54bb77242041bdb0730434aba332fc": {
+        "id": "AS_Button_gb54bb77242041bdb0730434aba332fc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBall",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g2419ab6da104320a9814f8c6117997f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__j5b6e5946c6346aea5db664ebd8e1293",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "rotateImage",
+            "display": "rotateImage",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCheckBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "37dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7461a28fb17496d9318ccaa729984e2",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "99.70%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "55.34%"
+    },
+    "containerweight": 100,
+    "id": "chbHmllContent",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "groupCells": true,
+            "viewType": 1
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kuid": "bbc9771bba10474a82542fc38aec3a49",
+    "masterdata": [
+        [
+            "1",
+            "Htmlフォーマットメッセージ"
+        ]
+    ],
+    "name": "kony.ui.CheckBoxGroup",
+    "orientation": "vertical",
+    "parent": "flxBody",
+    "pf": "frmMail",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": null,
+    "selectedkeys": [],
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewtype": 0,
+    "wType": "CheckBoxGroup",
+    "widgetalignment": 5,
+    "zindex": 1
+}

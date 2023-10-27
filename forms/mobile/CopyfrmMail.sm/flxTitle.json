@@ -1,0 +1,60 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "12%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s809925fa80048429591c6b8195e8848",
+    "_top_": {
+        "type": "string",
+        "value": "230dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblSubject",
+        "txtSubject"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxTitle",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e5ab98b936b94cda81b322db58667963",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxBody",
+    "pf": "CopyfrmMail",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

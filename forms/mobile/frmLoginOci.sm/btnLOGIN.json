@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se8c5b63305e474f82a897d8ed0fa912",
+    "_text_": "LOGIN",
+    "_top_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "actionsInfo": {
+        "eventAssociationMeta": {
+            "event": "onClick"
+        },
+        "skipMapping": true,
+        "widgetPropertyName": "text"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s3a07c84b9204475827fb7c4cbbfefb5",
+    "id": "btnLOGIN",
+    "ide_onClick": "AS_Button_g1a4de1795b549309be18e7838029400",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dba1e64ca90247d2b6e50dcacf178335",
+    "name": "kony.ui.Button",
+    "parent": "flexlogin",
+    "pf": "frmLoginOci",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

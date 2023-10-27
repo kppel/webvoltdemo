@@ -1,0 +1,72 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_skin_": "s45b5602ea3c4197a87ced790d055f38",
+    "_src_": "chevron.png",
+    "_top_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "android": {
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "id": "imgLeftAPI",
+    "imagescalemode": 1,
+    "info": null,
+    "iphone": {
+        "render": false
+    },
+    "isvisible": true,
+    "kuid": "a66b11e005bb46cd848c7654ab050ac8",
+    "name": "kony.ui.Image2",
+    "parent": "flexFreeAPI",
+    "pf": "tmpSegAPI",
+    "spaan": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "winphone8": {
+        "render": false
+    },
+    "zindex": 1
+}

@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "16%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2fbe14396d54f858ed1e1de71496914",
+    "_text_": "King Size Bed",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblKingSizeBed",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "u48fc333ab9e448988b4766d39a58e6c",
+    "name": "kony.ui.Label",
+    "parent": "flxKingSizeBed",
+    "pf": "userwidgetmodel",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 2
+}

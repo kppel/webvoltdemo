@@ -1,0 +1,27 @@
+{
+    "AS_Button_gadd246eb7644cdaad6291a5f8da6859": {
+        "id": "AS_Button_gadd246eb7644cdaad6291a5f8da6859",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBallImg",
+            "type": "forms",
+            "platform": null,
+            "KUID": "g9d5961534c44712a642e88851f9b85e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_b56392179f4c44739ecb23dfe73f6eda",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "rotateFlex",
+            "display": "rotateFlex",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

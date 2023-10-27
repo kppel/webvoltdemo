@@ -1,0 +1,58 @@
+{
+    "AS_FlexContainer_iddd6f5568164ee8887b9a0f4718e6e7": {
+        "id": "AS_FlexContainer_iddd6f5568164ee8887b9a0f4718e6e7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmBall",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g2419ab6da104320a9814f8c6117997f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "TRANSFORM_ACTION_NEW_g29b5fc3001d486b941d9dfdfb13f974",
+            "type": "TRANSFORM_ACTION_NEW",
+            "itemType": "FORM",
+            "itemId": "frmBall",
+            "widgetId": "flxBall",
+            "itemKUID": "g2419ab6da104320a9814f8c6117997f",
+            "widgetKUID": "b4e955e77a2d4541baa722f8c5db785e",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "top": "0",
+                "left": "0",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate": "30",
+                "opacity": "100",
+                "displayAnimationId": "",
+                "duration": "250",
+                "delay": "0",
+                "iterationCount": "1"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "voltmx.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "TRANSFORM_ACTION_NEW_g29b5fc3001d486b941d9dfdfb13f974",
+            "displayAnimationId": "TRANSFORM_ACTION_NEW_g29b5fc3001d486b941d9dfdfb13f974",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.flxBall"
+        }]
+    }
+}

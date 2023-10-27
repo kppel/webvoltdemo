@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "Default": {
+        "contentAlignment": 8
+    },
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "_skin_": "sff223e2c25c4045a6c19e8f5db53ff8",
+    "_text_": "モード2",
+    "_width_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "android": {},
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s85b73327414417795b83f345fae93aa",
+    "id": "btnMode2",
+    "ide_onClick": "AS_Button_gadd246eb7644cdaad6291a5f8da6859",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ce6afecb07d8476a97651a343369d9e7",
+    "name": "kony.ui.Button",
+    "parent": "flxControl",
+    "pf": "frmBallImg",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

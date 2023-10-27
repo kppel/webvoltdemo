@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "5.73%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s809925fa80048429591c6b8195e8848",
+    "_top_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {},
+    "id": "hamMenu",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a03927735b3c4105adf20e01846c85ba",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxBody",
+    "pf": "frmBallImg",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "u05cdcc619424d949a9c3fd31d731d0b",
+    "wType": "UserWidgetInstance"
+}

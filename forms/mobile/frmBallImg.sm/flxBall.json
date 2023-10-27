@@ -1,0 +1,72 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "249px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s1d2d5a376fb4010a37dce15972b4342",
+    "_top_": {
+        "type": "string",
+        "value": "201dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "250px"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50.88%"
+    },
+    "children": [
+        "img4",
+        "img2",
+        "img3",
+        "img1"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxBall",
+    "ide_onClick": "AS_FlexContainer_j3d0d351e4c643349aa4e6822c11d2fd",
+    "ide_onTouchStart": "AS_FlexContainer_e110e1fb7dde4dfcbe02c3a24ba9e624",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e0937b00fb8a4103b0522f07907ff4d2",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxBody",
+    "pf": "frmBallImg",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

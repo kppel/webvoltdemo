@@ -1,0 +1,81 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "32.46%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s809925fa80048429591c6b8195e8848",
+    "_top_": {
+        "type": "string",
+        "value": "280dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "autoScroll": true,
+        "data": {
+            "data": [
+                {
+                    "DefaultColumn": "acme.png"
+                },
+                {
+                    "DefaultColumn": "back.png"
+                },
+                {
+                    "DefaultColumn": "calbtn.png"
+                },
+                {
+                    "DefaultColumn": "chevron.png"
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "MyColumnOne",
+                    "columnHeaderType": "text",
+                    "columnID": "DefaultColumn",
+                    "columnText": "Not Defined",
+                    "columnType": "image",
+                    "kuid": "i58429a0b64643e3b60b757985ddcb26"
+                }
+            ]
+        }
+    },
+    "id": "carousel",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i84dcbda38034f78b509b06ffe077a38",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmTop",
+    "pf": "frmTop",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "sourceUserWidget": "u7d0fe72daa9471caa1c072bfbfd3e63",
+    "wType": "UserWidgetInstance"
+}

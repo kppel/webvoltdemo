@@ -1,0 +1,73 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextArea2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "287dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "18dp"
+    },
+    "_margin_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_padding_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_placeholder_": "",
+    "_skin_": "s15903ba0061402e9810d7cc481854a2",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "240dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "closebuttontext": "",
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "focusskin": "s100e652e07943769774bdba6f18786a",
+    "id": "txtAreaMessage",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "d913b685ff034a8e9e286434f3277bf2",
+    "mode": "A",
+    "name": "kony.ui.TextArea2",
+    "numberofvisiblelines": 3,
+    "parent": "flxBody",
+    "pf": "frmSMS",
+    "placeholderskin": "s117e3a0cf1a47429c0968a057077f06",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "showoprogressindicator": false,
+    "showprogressindicator": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextArea",
+    "zindex": 1
+}

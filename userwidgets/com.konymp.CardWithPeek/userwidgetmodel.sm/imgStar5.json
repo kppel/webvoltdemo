@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0.70%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s16b447075f44a678dba5e7a6539ecec",
+    "_src_": "kony_mp_carousel3_star_inactive.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "imgStar5",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "uf5f23477704488886c06b50338492e0",
+    "name": "kony.ui.Image2",
+    "parent": "flxStar",
+    "pf": "userwidgetmodel",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

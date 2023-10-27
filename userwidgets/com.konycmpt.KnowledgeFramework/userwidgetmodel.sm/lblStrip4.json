@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb2bfeac017448a6b7d1304f47ac0381",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblStrip4",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "ubf9eb7e43444166b75d7702d57ede88",
+    "name": "kony.ui.Label",
+    "parent": "flexAcc3",
+    "pf": "userwidgetmodel",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

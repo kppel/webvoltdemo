@@ -1,0 +1,71 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s809925fa80048429591c6b8195e8848",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50.06%"
+    },
+    "children": [
+        "flxBall",
+        "flxImage",
+        "flxControl",
+        "hamMenu"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxBody",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "acc8d9fe02674a03bff85dc385452bb5",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "frmBallImg",
+    "pf": "frmBallImg",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

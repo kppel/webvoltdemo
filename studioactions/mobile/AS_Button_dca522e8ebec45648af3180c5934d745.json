@@ -1,0 +1,23 @@
+{
+    "AS_Button_dca522e8ebec45648af3180c5934d745": {
+        "id": "AS_Button_dca522e8ebec45648af3180c5934d745",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form3",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gfa963f29a06489a880c58dc5a7e488b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_jcbc7bea976d433fb20913d9c41ab546",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.browser.requestURLConfig = {\n  URL:\"https://maps.google.com/maps\",\n  requestMethod: voltmx.sdk.constants.BROWSER_REQUEST_METHOD_GET\n};\n",
+            "parentId": null
+        }]
+    }
+}

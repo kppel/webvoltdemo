@@ -1,0 +1,60 @@
+{
+    "AS_Label_f0cc097115b843a8885491a1359f4c74": {
+        "id": "AS_Label_f0cc097115b843a8885491a1359f4c74",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmM2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "db4a38df760c4d948465c3c24eae2520"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_d5e2ff3cdad14c62bc914aada897f0df",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "URL=URL10;",
+            "parentId": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__d682aa7165ec43178513a16266dbf611",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmMap",
+            "formKUID": "e1508290aee8413bbf096cabbd56591c",
+            "projectName": "TestMobApp1",
+            "mappings": {
+                "ME_Mapping_f76f62c12cba4f069ebf3c5ccc33772e": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_f76f62c12cba4f069ebf3c5ccc33772e",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "URL",
+                        "propertyKey": "variable_URL",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_f76f62c12cba4f069ebf3c5ccc33772e"],
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": false,
+            "navigationObj": "{\n    \"variable_URL\": URL,\n    \"_meta_\": {\n        \"eventName\": \"onTouchEnd\",\n        \"widgetId\": \"btnMove2\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

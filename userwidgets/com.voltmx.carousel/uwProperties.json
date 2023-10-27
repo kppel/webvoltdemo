@@ -1,0 +1,235 @@
+{
+    "classname": "carousel",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [
+                "Error Callback"
+            ],
+            "properties": [
+                "Flex Properties In Percentage"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [
+                            {
+                                "DefaultColumn": "screenshot_2021_08_27_at_12_39_53.png"
+                            },
+                            {
+                                "DefaultColumn": "screenshot_2021_08_27_at_11_57_59.png"
+                            },
+                            {
+                                "DefaultColumn": "screenshot_2021_08_27_at_11_58_19.png"
+                            },
+                            {
+                                "DefaultColumn": "screenshot_2021_08_27_at_12_04_17.png"
+                            }
+                        ],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "MyColumnOne",
+                                "columnHeaderType": "text",
+                                "columnID": "DefaultColumn",
+                                "columnText": "Not Defined",
+                                "columnType": "image",
+                                "kuid": "i58429a0b64643e3b60b757985ddcb26"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "hf2d8cc5e645445094679b7a008ad592",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 1,
+                    "propertyKey": "data",
+                    "pw": {
+                        "displayName": "Data",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "u7d0fe72daa9471caa1c072bfbfd3e63",
+                    "type": "data grid",
+                    "value": 1
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "20",
+                    "group": "Flex Properties In Percentage",
+                    "kuid": "ja1a7e2b665d449498a9f50d0e051898",
+                    "originalPropertyKey": "flexTop",
+                    "propertyIndex": 1,
+                    "propertyKey": "flexTop",
+                    "pw": {
+                        "displayName": "Top",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u7d0fe72daa9471caa1c072bfbfd3e63",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Medium",
+                    "group": "General",
+                    "kuid": "h7145534dad74303b135926eebf7036e",
+                    "originalPropertyKey": "animationSpeed",
+                    "propertyIndex": 2,
+                    "propertyKey": "animationSpeed",
+                    "pw": {
+                        "displayName": "Animation Speed",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "u7d0fe72daa9471caa1c072bfbfd3e63",
+                    "type": "list selector",
+                    "value": [
+                        "Medium",
+                        "Slow",
+                        "Fast"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "20",
+                    "group": "Flex Properties In Percentage",
+                    "kuid": "c64708f13859427da0cc244c94edde34",
+                    "originalPropertyKey": "flexLeft",
+                    "propertyIndex": 2,
+                    "propertyKey": "flexLeft",
+                    "pw": {
+                        "displayName": "Left",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u7d0fe72daa9471caa1c072bfbfd3e63",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Horizontal",
+                    "group": "General",
+                    "kuid": "i7ae6558e6564abd850f224e48a1fd20",
+                    "originalPropertyKey": "animationDirection",
+                    "propertyIndex": 2,
+                    "propertyKey": "animationDirection",
+                    "pw": {
+                        "displayName": "Animation Direction",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "u7d0fe72daa9471caa1c072bfbfd3e63",
+                    "type": "list selector",
+                    "value": [
+                        "Horizontal",
+                        "Vertical"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "c188e7508e7343a780dcd8584eff4dbc",
+                    "originalPropertyKey": "autoScroll",
+                    "propertyIndex": 2,
+                    "propertyKey": "autoScroll",
+                    "pw": {
+                        "displayName": "Auto Scroll",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "u7d0fe72daa9471caa1c072bfbfd3e63",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 1,
+                    "group": "General",
+                    "kuid": "f4e3dff02db74977abaddc7089b08aa1",
+                    "originalPropertyKey": "autoScrollDelay",
+                    "propertyIndex": 2,
+                    "propertyKey": "autoScrollDelay",
+                    "pw": {
+                        "displayName": "Auto Scroll Delay",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "u7d0fe72daa9471caa1c072bfbfd3e63",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "f6dc7f297913438d8b060fc29756e5e7",
+                    "originalPropertyKey": "animateInLoop",
+                    "propertyIndex": 2,
+                    "propertyKey": "animateInLoop",
+                    "pw": {
+                        "displayName": "Animate In Loop",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "u7d0fe72daa9471caa1c072bfbfd3e63",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "50",
+                    "group": "Flex Properties In Percentage",
+                    "kuid": "j599d0981eaf446fb04cc126d9dc40b5",
+                    "originalPropertyKey": "flexWidth",
+                    "propertyIndex": 3,
+                    "propertyKey": "flexWidth",
+                    "pw": {
+                        "displayName": "Width",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u7d0fe72daa9471caa1c072bfbfd3e63",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "50",
+                    "group": "Flex Properties In Percentage",
+                    "kuid": "ic39396540354408856324b2a7ee9d80",
+                    "originalPropertyKey": "flexHeight",
+                    "propertyIndex": 4,
+                    "propertyKey": "flexHeight",
+                    "pw": {
+                        "displayName": "Height",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u7d0fe72daa9471caa1c072bfbfd3e63",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "dbe70189a05f4e1bbc9f92d5a2e6857b",
+                    "propertyKey": "flxMain",
+                    "srcWgtKUID": "u3feff3aba244271bf9e7b9f7be6f23f"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.voltmx",
+    "version": "1.0.1"
+}

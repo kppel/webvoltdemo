@@ -1,0 +1,21 @@
+{
+    "AS_Button_fe2afbb42ba24baca3fa8ed2209402f1": {
+        "id": "AS_Button_fe2afbb42ba24baca3fa8ed2209402f1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_f0acaf02cecc4b15a92a722f24c63309",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "rotateFlex",
+            "display": "rotateFlex",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

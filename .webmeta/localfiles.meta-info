@@ -1,0 +1,262 @@
+{
+    "HEAD": "w321d2e06ba74c7c87adb97a04161ba5",
+    "w038383543c6412d92cb51ce5c87488e": {
+        "extension": "css",
+        "kuid": "w038383543c6412d92cb51ce5c87488e",
+        "name": "overwrite.css",
+        "parent": "w4c324b4129e42fcbd53395084673ee2",
+        "type": "F"
+    },
+    "w1702e1d84d246da9e7e710491363f69": {
+        "extension": "css",
+        "kuid": "w1702e1d84d246da9e7e710491363f69",
+        "name": "overwrite.css",
+        "parent": "w97a9bb16c5349e3ab73ec1a5ceb3953",
+        "type": "F"
+    },
+    "w290ed2feff2476fa90393287eb00950": {
+        "children": [
+            "w4c324b4129e42fcbd53395084673ee2",
+            "w41b573484c7432e9212ed2615501dd3",
+            "wf7ff3f0d822476787f9c524684203b4",
+            "wd0f431b74074afeb0fc07193bbcd662"
+        ],
+        "kuid": "w290ed2feff2476fa90393287eb00950",
+        "name": "CopyvueCarousel1",
+        "parent": "w321d2e06ba74c7c87adb97a04161ba5",
+        "type": "D"
+    },
+    "w2bd6cbf797a446abf08775cf2e3abfb": {
+        "extension": "js",
+        "kuid": "w2bd6cbf797a446abf08775cf2e3abfb",
+        "name": "vue.js",
+        "parent": "w7997603adab4410bcbaed82fe8850d1",
+        "type": "F"
+    },
+    "w2c1a880c9f14c6f9d159111511960a3": {
+        "extension": "js",
+        "kuid": "w2c1a880c9f14c6f9d159111511960a3",
+        "name": "vue.js",
+        "parent": "wf7ff3f0d822476787f9c524684203b4",
+        "type": "F"
+    },
+    "w2eb8dbb0e34460bbfa6d018683285c6": {
+        "extension": "css",
+        "kuid": "w2eb8dbb0e34460bbfa6d018683285c6",
+        "name": "overwrite.css",
+        "parent": "wdbccc4ab5934cd99b37fc6eeaf133da",
+        "type": "F"
+    },
+    "w321d2e06ba74c7c87adb97a04161ba5": {
+        "children": [
+            "w9da42fd47544c2396caeb4fe2856132",
+            "w48e90b9300d40308748cb968a43555f",
+            "w290ed2feff2476fa90393287eb00950"
+        ],
+        "kuid": "w321d2e06ba74c7c87adb97a04161ba5",
+        "name": "localfiles",
+        "type": "L"
+    },
+    "w3949455320b4df8b1a548ad67db6478": {
+        "extension": "js",
+        "kuid": "w3949455320b4df8b1a548ad67db6478",
+        "name": "app.js",
+        "parent": "wf7ff3f0d822476787f9c524684203b4",
+        "type": "F"
+    },
+    "w41b573484c7432e9212ed2615501dd3": {
+        "extension": "html",
+        "kuid": "w41b573484c7432e9212ed2615501dd3",
+        "name": "index.html",
+        "parent": "w290ed2feff2476fa90393287eb00950",
+        "type": "F"
+    },
+    "w48e90b9300d40308748cb968a43555f": {
+        "children": [
+            "w97a9bb16c5349e3ab73ec1a5ceb3953",
+            "w5ec7bd094124eb5a74778373decd8da",
+            "w7997603adab4410bcbaed82fe8850d1",
+            "w774a809c1b546d28626d000c2037396"
+        ],
+        "kuid": "w48e90b9300d40308748cb968a43555f",
+        "name": "CopyvueCarousel",
+        "parent": "w321d2e06ba74c7c87adb97a04161ba5",
+        "type": "D"
+    },
+    "w4c324b4129e42fcbd53395084673ee2": {
+        "children": [
+            "w038383543c6412d92cb51ce5c87488e"
+        ],
+        "kuid": "w4c324b4129e42fcbd53395084673ee2",
+        "name": "custom-css",
+        "parent": "w290ed2feff2476fa90393287eb00950",
+        "type": "D"
+    },
+    "w5ec7bd094124eb5a74778373decd8da": {
+        "extension": "html",
+        "kuid": "w5ec7bd094124eb5a74778373decd8da",
+        "name": "index.html",
+        "parent": "w48e90b9300d40308748cb968a43555f",
+        "type": "F"
+    },
+    "w774a809c1b546d28626d000c2037396": {
+        "children": [
+            "wae2f71ae60c48bca2c5910c2a30e304"
+        ],
+        "kuid": "w774a809c1b546d28626d000c2037396",
+        "name": "styles",
+        "parent": "w48e90b9300d40308748cb968a43555f",
+        "type": "D"
+    },
+    "w7997603adab4410bcbaed82fe8850d1": {
+        "children": [
+            "wb752cde2c684b57b2b1ff0f0959d9e5",
+            "w8e993797c2743b5ab798cb11de5195c",
+            "w2bd6cbf797a446abf08775cf2e3abfb"
+        ],
+        "kuid": "w7997603adab4410bcbaed82fe8850d1",
+        "name": "js",
+        "parent": "w48e90b9300d40308748cb968a43555f",
+        "type": "D"
+    },
+    "w7c0999cfdd1411faefa7c0ecb35dd30": {
+        "children": [
+            "wf024a32af954e15a6f595b80e6acc37",
+            "wba9c90b457244a986db0b605aecc8eb",
+            "wdf4e22dd4304211b9a72062e935336e"
+        ],
+        "kuid": "w7c0999cfdd1411faefa7c0ecb35dd30",
+        "name": "js",
+        "parent": "w9da42fd47544c2396caeb4fe2856132",
+        "type": "D"
+    },
+    "w8e993797c2743b5ab798cb11de5195c": {
+        "extension": "js",
+        "kuid": "w8e993797c2743b5ab798cb11de5195c",
+        "name": "vue-carousel-3d.min.js",
+        "parent": "w7997603adab4410bcbaed82fe8850d1",
+        "type": "F"
+    },
+    "w97a9bb16c5349e3ab73ec1a5ceb3953": {
+        "children": [
+            "w1702e1d84d246da9e7e710491363f69"
+        ],
+        "kuid": "w97a9bb16c5349e3ab73ec1a5ceb3953",
+        "name": "custom-css",
+        "parent": "w48e90b9300d40308748cb968a43555f",
+        "type": "D"
+    },
+    "w9da42fd47544c2396caeb4fe2856132": {
+        "children": [
+            "wdbccc4ab5934cd99b37fc6eeaf133da",
+            "wbe2c21dc0504b2eb2add7dda8ae9002",
+            "w7c0999cfdd1411faefa7c0ecb35dd30",
+            "wfe51e16f5f04f6ebed1c132407749ca"
+        ],
+        "kuid": "w9da42fd47544c2396caeb4fe2856132",
+        "name": "vueCarousel",
+        "parent": "w321d2e06ba74c7c87adb97a04161ba5",
+        "type": "D"
+    },
+    "wae2f71ae60c48bca2c5910c2a30e304": {
+        "extension": "css",
+        "kuid": "wae2f71ae60c48bca2c5910c2a30e304",
+        "name": "carousel.css",
+        "parent": "w774a809c1b546d28626d000c2037396",
+        "type": "F"
+    },
+    "wb752cde2c684b57b2b1ff0f0959d9e5": {
+        "extension": "js",
+        "kuid": "wb752cde2c684b57b2b1ff0f0959d9e5",
+        "name": "app.js",
+        "parent": "w7997603adab4410bcbaed82fe8850d1",
+        "type": "F"
+    },
+    "wb912e8c69f341c4bc33f81b60d096fb": {
+        "extension": "css",
+        "kuid": "wb912e8c69f341c4bc33f81b60d096fb",
+        "name": "carousel.css",
+        "parent": "wd0f431b74074afeb0fc07193bbcd662",
+        "type": "F"
+    },
+    "wba9c90b457244a986db0b605aecc8eb": {
+        "extension": "js",
+        "kuid": "wba9c90b457244a986db0b605aecc8eb",
+        "name": "vue-carousel-3d.min.js",
+        "parent": "w7c0999cfdd1411faefa7c0ecb35dd30",
+        "type": "F"
+    },
+    "wbe2c21dc0504b2eb2add7dda8ae9002": {
+        "extension": "html",
+        "kuid": "wbe2c21dc0504b2eb2add7dda8ae9002",
+        "name": "index.html",
+        "parent": "w9da42fd47544c2396caeb4fe2856132",
+        "type": "F"
+    },
+    "wcaf9f99967141fa99ea75b52443fb56": {
+        "extension": "css",
+        "kuid": "wcaf9f99967141fa99ea75b52443fb56",
+        "name": "carousel.css",
+        "parent": "wfe51e16f5f04f6ebed1c132407749ca",
+        "type": "F"
+    },
+    "wcb576891b1a4650811498d9fbd5ed16": {
+        "extension": "js",
+        "kuid": "wcb576891b1a4650811498d9fbd5ed16",
+        "name": "vue-carousel-3d.min.js",
+        "parent": "wf7ff3f0d822476787f9c524684203b4",
+        "type": "F"
+    },
+    "wd0f431b74074afeb0fc07193bbcd662": {
+        "children": [
+            "wb912e8c69f341c4bc33f81b60d096fb"
+        ],
+        "kuid": "wd0f431b74074afeb0fc07193bbcd662",
+        "name": "styles",
+        "parent": "w290ed2feff2476fa90393287eb00950",
+        "type": "D"
+    },
+    "wdbccc4ab5934cd99b37fc6eeaf133da": {
+        "children": [
+            "w2eb8dbb0e34460bbfa6d018683285c6"
+        ],
+        "kuid": "wdbccc4ab5934cd99b37fc6eeaf133da",
+        "name": "custom-css",
+        "parent": "w9da42fd47544c2396caeb4fe2856132",
+        "type": "D"
+    },
+    "wdf4e22dd4304211b9a72062e935336e": {
+        "extension": "js",
+        "kuid": "wdf4e22dd4304211b9a72062e935336e",
+        "name": "vue.js",
+        "parent": "w7c0999cfdd1411faefa7c0ecb35dd30",
+        "type": "F"
+    },
+    "wf024a32af954e15a6f595b80e6acc37": {
+        "extension": "js",
+        "kuid": "wf024a32af954e15a6f595b80e6acc37",
+        "name": "app.js",
+        "parent": "w7c0999cfdd1411faefa7c0ecb35dd30",
+        "type": "F"
+    },
+    "wf7ff3f0d822476787f9c524684203b4": {
+        "children": [
+            "w3949455320b4df8b1a548ad67db6478",
+            "wcb576891b1a4650811498d9fbd5ed16",
+            "w2c1a880c9f14c6f9d159111511960a3"
+        ],
+        "kuid": "wf7ff3f0d822476787f9c524684203b4",
+        "name": "js",
+        "parent": "w290ed2feff2476fa90393287eb00950",
+        "type": "D"
+    },
+    "wfe51e16f5f04f6ebed1c132407749ca": {
+        "children": [
+            "wcaf9f99967141fa99ea75b52443fb56"
+        ],
+        "kuid": "wfe51e16f5f04f6ebed1c132407749ca",
+        "name": "styles",
+        "parent": "w9da42fd47544c2396caeb4fe2856132",
+        "type": "D"
+    }
+}

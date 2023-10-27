@@ -1,0 +1,44 @@
+{
+    "AS_Button_c44705a7a32149e28389df3f4b33ca47": {
+        "id": "AS_Button_c44705a7a32149e28389df3f4b33ca47",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ROTATE_ACTION_fc90f80a89f94d4d8ca61aab92178408",
+            "type": "ROTATE_ACTION",
+            "itemType": "FORM",
+            "itemId": "Form1",
+            "widgetId": "flxImage",
+            "itemKUID": "c5a50a9b6be94128b6860349042fd5ce",
+            "widgetKUID": "ib11d554670a4babac605b3a47d0642b",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate": "45",
+                "opacity": "100",
+                "displayAnimationId": "",
+                "duration": "250",
+                "delay": "0",
+                "iterationCount": "1"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "voltmx.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "ROTATE_ACTION_fc90f80a89f94d4d8ca61aab92178408",
+            "displayAnimationId": "ROTATE_ACTION_fc90f80a89f94d4d8ca61aab92178408",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.flxImage"
+        }]
+    }
+}

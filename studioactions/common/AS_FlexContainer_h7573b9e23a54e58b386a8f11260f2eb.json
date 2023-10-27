@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_h7573b9e23a54e58b386a8f11260f2eb": {
+        "id": "AS_FlexContainer_h7573b9e23a54e58b386a8f11260f2eb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "u44c8aa66d074665ab7681ac929c7cab",
+            "name": "userwidgetmodel"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_c60730d0eaf8428499d64bf019aa6ae3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var newdata = this.modifyDataFromDataGrid(this._suboptions, this._options);\nthis.addMenuItems(newdata);",
+            "parentId": null
+        }]
+    }
+}

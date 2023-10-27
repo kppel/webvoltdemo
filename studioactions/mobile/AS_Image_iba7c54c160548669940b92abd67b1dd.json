@@ -1,0 +1,41 @@
+{
+    "AS_Image_iba7c54c160548669940b92abd67b1dd": {
+        "id": "AS_Image_iba7c54c160548669940b92abd67b1dd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmBall",
+            "type": "forms",
+            "platform": null,
+            "KUID": "g2419ab6da104320a9814f8c6117997f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_g85839e1263841e0b0906e0500789fbf",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_CONFIRMATION",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "No4",
+            "messageType": "constant",
+            "alertHandler": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

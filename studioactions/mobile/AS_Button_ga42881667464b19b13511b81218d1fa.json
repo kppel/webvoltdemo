@@ -1,0 +1,34 @@
+{
+    "AS_Button_ga42881667464b19b13511b81218d1fa": {
+        "id": "AS_Button_ga42881667464b19b13511b81218d1fa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form3",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gfa963f29a06489a880c58dc5a7e488b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_LOCAL_VARIABLE_e2d3b418f32d493cbcf45d4d72540071",
+            "type": "ADD_LOCAL_VARIABLE",
+            "name": "aaaa",
+            "isGlobal": false,
+            "valuetype": "constant",
+            "datatype": "string",
+            "value": "\"\""
+        }, {
+            "id": "RETRIEVE_DATA_ACTION_c1e9d5ace5ac4c29bff42e310f261e5a",
+            "type": "RETRIEVE_DATA_ACTION",
+            "parentId": null,
+            "keyType": "choose",
+            "key": "aaaa",
+            "assignToType": "choose",
+            "assignTo": "aaaa"
+        }]
+    }
+}

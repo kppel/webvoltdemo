@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0a35168fdc04e3e8fde8e1a1de33cf1",
+    "_src_": "https://media-s3-us-east-1.ceros.com/hcl-software/images/2020/12/02/d3cefe28c6f5dc2ffb5ec327b178b165/volt-mx-2000px.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "imgHeader",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "ufc120a18e2a416e88196b8f35ccea77",
+    "name": "kony.ui.Image2",
+    "parent": "flxImage",
+    "pf": "userwidgetmodel",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

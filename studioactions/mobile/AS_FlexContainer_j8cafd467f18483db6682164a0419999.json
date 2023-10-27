@@ -1,0 +1,150 @@
+{
+    "AS_FlexContainer_j8cafd467f18483db6682164a0419999": {
+        "id": "AS_FlexContainer_j8cafd467f18483db6682164a0419999",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBall",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g2419ab6da104320a9814f8c6117997f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ROTATE_ACTION_be8d7174dbd24ef8a508e2208354a1d0",
+            "type": "ROTATE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmBall",
+            "widgetId": "img1",
+            "itemKUID": "g2419ab6da104320a9814f8c6117997f",
+            "widgetKUID": "h9c9c1e41a1249968a5a1c25e1425233",
+            "wType": "Image",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate": "10",
+                "opacity": "100",
+                "displayAnimationId": "",
+                "duration": "250",
+                "delay": "0",
+                "iterationCount": ""
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 0,
+                "fillMode": "voltmx.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "ROTATE_ACTION_f258c5bc2a554cd4b71bfd54c27823a9",
+            "animationId": "ROTATE_ACTION_be8d7174dbd24ef8a508e2208354a1d0",
+            "displayAnimationId": "img1Rotation",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.img1"
+        }, {
+            "id": "ROTATE_ACTION_f258c5bc2a554cd4b71bfd54c27823a9",
+            "type": "ROTATE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmBall",
+            "widgetId": "img2",
+            "itemKUID": "g2419ab6da104320a9814f8c6117997f",
+            "widgetKUID": "d033b097b9204c5b9d2fb3574f7053b1",
+            "wType": "Image",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate": "10",
+                "opacity": "100",
+                "displayAnimationId": "",
+                "duration": "250",
+                "delay": "0",
+                "iterationCount": ""
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 0,
+                "fillMode": "voltmx.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "ROTATE_ACTION_be8d7174dbd24ef8a508e2208354a1d0",
+            "animationId": "ROTATE_ACTION_f258c5bc2a554cd4b71bfd54c27823a9",
+            "displayAnimationId": "img2Rotation",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.img2"
+        }, {
+            "id": "ROTATE_ACTION_afef435ea32f4606b2a9b65065391fd5",
+            "type": "ROTATE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmBall",
+            "widgetId": "img3",
+            "itemKUID": "g2419ab6da104320a9814f8c6117997f",
+            "widgetKUID": "f8a8cd0a43df4162a3ffe1a19c993a3b",
+            "wType": "Image",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate": "10",
+                "opacity": "100",
+                "displayAnimationId": "",
+                "duration": "250",
+                "delay": "0",
+                "iterationCount": ""
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 0,
+                "fillMode": "voltmx.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "ROTATE_ACTION_be8d7174dbd24ef8a508e2208354a1d0",
+            "animationId": "ROTATE_ACTION_afef435ea32f4606b2a9b65065391fd5",
+            "displayAnimationId": "img3Rotation",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.img3"
+        }, {
+            "id": "ROTATE_ACTION_e539adc43b6a4b7e86e181464139f1a0",
+            "type": "ROTATE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmBall",
+            "widgetId": "img4",
+            "itemKUID": "g2419ab6da104320a9814f8c6117997f",
+            "widgetKUID": "b94aca34e7d945a68e6891399192aff6",
+            "wType": "Image",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate": "10",
+                "opacity": "100",
+                "displayAnimationId": "",
+                "duration": "250",
+                "delay": "0",
+                "iterationCount": "1"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 0,
+                "fillMode": "voltmx.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "ROTATE_ACTION_be8d7174dbd24ef8a508e2208354a1d0",
+            "animationId": "ROTATE_ACTION_e539adc43b6a4b7e86e181464139f1a0",
+            "displayAnimationId": "ROTATE_ACTION_e539adc43b6a4b7e86e181464139f1a0",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.img4"
+        }]
+    }
+}

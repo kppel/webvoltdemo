@@ -1,0 +1,22 @@
+{
+    "AS_Button_ee44f81fe59040b68d292f19ea910d99": {
+        "id": "AS_Button_ee44f81fe59040b68d292f19ea910d99",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "u1c3b10f85a04496aa121fa4f61305ba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jdfdcdbe6bdf4e6dab1304be888bda8f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openEmail();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "123dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1cf522a078d46d281e032cd39be2404",
+    "_text_": "Check",
+    "_top_": {
+        "type": "string",
+        "value": "693dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s85b73327414417795b83f345fae93aa",
+    "id": "btnCheck",
+    "ide_onClick": "AS_Button_c6eab27c2b6d4bbcae568fc9fc2e4d85",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b0c0e0fb5a1841de8c3f0307dd91ae28",
+    "name": "kony.ui.Button",
+    "parent": "frmTop",
+    "pf": "frmTop",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

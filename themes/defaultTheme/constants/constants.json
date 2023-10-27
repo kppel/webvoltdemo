@@ -1,0 +1,128 @@
+{
+    "corAccent": {
+        "color": {
+            "value": "3b5d7aff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "corBase": {
+        "color": {
+            "value": "8799a8ff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "corBlack": {
+        "color": {
+            "value": "000000ff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "corBlack1": {
+        "color": {
+            "value": "000000ff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "corBlack2": {
+        "color": {
+            "value": "000000ff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "corBlack3": {
+        "color": {
+            "value": "000000ff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "corBlack4": {
+        "color": {
+            "value": "000000ff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "corMain": {
+        "color": {
+            "value": "007566ff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "corWhite": {
+        "color": {
+            "value": "ffffffff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "corWhite1": {
+        "color": {
+            "value": "ffffffff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "font120": {
+        "color": {
+            "value": "000000ff"
+        },
+        "name": {
+            "value": "System"
+        },
+        "size": {
+            "value": 120
+        },
+        "style": {
+            "value": "normal"
+        },
+        "type": "font",
+        "weight": {
+            "value": "normal"
+        }
+    },
+    "font150": {
+        "color": {
+            "value": "000000ff"
+        },
+        "name": {
+            "value": "System"
+        },
+        "size": {
+            "value": 150
+        },
+        "style": {
+            "value": "normal"
+        },
+        "type": "font",
+        "weight": {
+            "value": "normal"
+        }
+    }
+}

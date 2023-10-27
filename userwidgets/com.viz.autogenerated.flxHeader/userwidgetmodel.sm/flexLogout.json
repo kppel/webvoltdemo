@@ -1,0 +1,78 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "55%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "8dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "defDataPanelLogoutFlexDW",
+    "_width_": {
+        "type": "string",
+        "value": "110dp"
+    },
+    "actionsInfo": {
+        "skipMapping": true
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "lblLogout",
+        "imgLogout"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexLogout",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "u44a1b331ba14437b3932f54f83ae942",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexRight",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "skin": "sc8e0d8bbc1e4c79adbec9896e665873"
+        },
+        "b2": {
+            "skin": "sc8e0d8bbc1e4c79adbec9896e665873"
+        },
+        "b3": {
+            "skin": "",
+            "width": {
+                "type": "string",
+                "value": "30dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

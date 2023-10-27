@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "18dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s45b5602ea3c4197a87ced790d055f38",
+    "_src_": "chevron.png",
+    "_top_": {
+        "type": "string",
+        "value": "18dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "18dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "btnAccordian1",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "a033d219719d43f9b779a7f3b38388e9",
+    "name": "kony.ui.Image2",
+    "parent": "flxAcc1",
+    "pf": "frmCaro",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

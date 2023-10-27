@@ -1,0 +1,40 @@
+{
+    "AS_Label_ffbbbd1a60c64e848bb7cc8213b7a57e": {
+        "id": "AS_Label_ffbbbd1a60c64e848bb7cc8213b7a57e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmM2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "db4a38df760c4d948465c3c24eae2520"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_dc2924eb283e464db7c94f3b63c6fb74",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "URL=URL9;",
+            "parentId": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__f0d39d9c1adc4e26abba8eca531542e9",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmMap",
+            "formKUID": "e1508290aee8413bbf096cabbd56591c",
+            "projectName": "TestMobApp1",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

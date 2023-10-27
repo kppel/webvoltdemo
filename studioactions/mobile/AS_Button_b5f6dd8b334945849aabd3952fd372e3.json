@@ -1,0 +1,28 @@
+{
+    "AS_Button_b5f6dd8b334945849aabd3952fd372e3": {
+        "id": "AS_Button_b5f6dd8b334945849aabd3952fd372e3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMail",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f4bfaedf38914c37a83bfaf5b84aa837"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__j9bce50840e84d7f98261146d94a07f7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "sendMail",
+            "display": "sendMail",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

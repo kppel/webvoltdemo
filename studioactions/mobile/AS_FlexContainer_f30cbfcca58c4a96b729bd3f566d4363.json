@@ -1,0 +1,16 @@
+{
+    "AS_FlexContainer_f30cbfcca58c4a96b729bd3f566d4363": {
+        "id": "AS_FlexContainer_f30cbfcca58c4a96b729bd3f566d4363",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_abe084c237b74c27aa67b1c61218c724",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showAccordBcc(eventobject.id);"
+        }]
+    }
+}

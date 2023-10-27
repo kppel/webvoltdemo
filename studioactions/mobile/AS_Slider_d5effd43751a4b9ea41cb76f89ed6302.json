@@ -1,0 +1,31 @@
+{
+    "AS_Slider_d5effd43751a4b9ea41cb76f89ed6302": {
+        "id": "AS_Slider_d5effd43751a4b9ea41cb76f89ed6302",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "selectedvalue"
+        }],
+        "contextObj": {
+            "name": "frmBallImg",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g9d5961534c44712a642e88851f9b85e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__h8dd93ff7d83436584eb59e55c8f1925",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "slider",
+            "display": "slider",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

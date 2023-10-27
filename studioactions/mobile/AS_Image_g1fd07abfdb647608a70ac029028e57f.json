@@ -1,0 +1,109 @@
+{
+    "AS_Image_g1fd07abfdb647608a70ac029028e57f": {
+        "id": "AS_Image_g1fd07abfdb647608a70ac029028e57f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmBallImg",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g9d5961534c44712a642e88851f9b85e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR_f57f40fc4e0647ffb21a6a059c76e206",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_ASYNC_SERVICE_j9568155c11948ae858eb0ea450123f0",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": [{
+                "name": "",
+                "value": ""
+            }, {
+                "name": "",
+                "value": ""
+            }, {
+                "name": "",
+                "value": ""
+            }, {
+                "name": "",
+                "value": ""
+            }],
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "glide",
+                "type": "integration",
+                "operationname": "FileLoader",
+                "serviceid": "ac82cfb1-76a4-4980-9f9c-c7d186dbf57f",
+                "operationid": "318548"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_gdcc9dddb50e4f2cb0d6c967c0634a97",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_ASYNC_SERVICE_j9568155c11948ae858eb0ea450123f0",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "_IF_CONDITION_j2c23a5e7a1843239572656fbc47ece0",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValue": "FileLoader.opstatus",
+                "rightValue": "0",
+                "leftValueType": "value",
+                "rightValueType": "value",
+                "operator": "==="
+            }],
+            "parentId": "INVOKE_ASYNC_SERVICE_j9568155c11948ae858eb0ea450123f0",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "_ELSE_CONDITION_cc8f338c7ef94c4e83f1bc228fc49216",
+            "type": "ELSE_CONDITION",
+            "conditions": [],
+            "parentId": "INVOKE_ASYNC_SERVICE_j9568155c11948ae858eb0ea450123f0",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT_fd457a61453c42778acdf21d22b3195a",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Data fetch failed! Please try again later.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "_ELSE_CONDITION_cc8f338c7ef94c4e83f1bc228fc49216",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

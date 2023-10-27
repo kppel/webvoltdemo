@@ -1,0 +1,28 @@
+{
+    "AS_Form_g02a98a3da6f4b63a59f8f024efb9e20": {
+        "id": "AS_Form_g02a98a3da6f4b63a59f8f024efb9e20",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBallImg",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g9d5961534c44712a642e88851f9b85e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b823fa5f4c1e415395736ef02bd5440c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setLocalStorageImages",
+            "display": "setLocalStorageImages",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

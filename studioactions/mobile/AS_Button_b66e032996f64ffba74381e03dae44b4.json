@@ -1,0 +1,29 @@
+{
+    "AS_Button_b66e032996f64ffba74381e03dae44b4": {
+        "id": "AS_Button_b66e032996f64ffba74381e03dae44b4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTop",
+            "type": "forms",
+            "platform": "",
+            "KUID": "eb19c9ee6d12441c9c525bb19061035d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__b28ef7a71bea4e549d91dec435040ba7",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNext1",
+            "formKUID": "h1c2975e8a294147a9bccc47228bdbaa",
+            "projectName": "TestMobApp1",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

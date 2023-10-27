@@ -1,0 +1,91 @@
+{
+    "AS_Button_a02738087d5d4267b652b7223a5c7e31": {
+        "id": "AS_Button_a02738087d5d4267b652b7223a5c7e31",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBallImg",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g9d5961534c44712a642e88851f9b85e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR_j9521c6c29754c9d8eb971f9df653251",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_ASYNC_SERVICE_f206834645e646549ca7fff6f4a72407",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "WeatherSampleService",
+                "type": "integration",
+                "operationname": "WeatherForecast",
+                "serviceid": "f4f56275-9be4-4a29-aad5-0fc52ea7d991",
+                "operationid": "258968"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_bf5e5865192d47209101d9c699fc1db5",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_ASYNC_SERVICE_f206834645e646549ca7fff6f4a72407",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "_IF_CONDITION_cdede5e9f16e4566a90814ea4fe9ca9b",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValue": "WeatherForecast.opstatus",
+                "rightValue": "0",
+                "leftValueType": "value",
+                "rightValueType": "value",
+                "operator": "==="
+            }],
+            "parentId": "INVOKE_ASYNC_SERVICE_f206834645e646549ca7fff6f4a72407",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "_ELSE_CONDITION_ja3cb289dd8e47249cd671238c4d7082",
+            "type": "ELSE_CONDITION",
+            "conditions": [],
+            "parentId": "INVOKE_ASYNC_SERVICE_f206834645e646549ca7fff6f4a72407",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT_je62a6fa5b2b4214b59674ccef53091b",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Data fetch failed! Please try again later.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "_ELSE_CONDITION_ja3cb289dd8e47249cd671238c4d7082",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

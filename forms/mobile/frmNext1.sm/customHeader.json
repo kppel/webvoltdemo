@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "8.33%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s809925fa80048429591c6b8195e8848",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {},
+    "id": "customHeader",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e8477be744da4a86a3d7d598ea34331b",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmNext1",
+    "pf": "frmNext1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "iaba31b8c4cf45bdad0ffce5e73423c4",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

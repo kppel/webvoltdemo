@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s9ce72c3d7c04dc5874c297202d8b383",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "140dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s0ee4d2ed5884c12832453a998c2b1d3",
+    "id": "txtPhoneNo",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "j61f203ef2d44a7e8cb6894abf90da65",
+    "mode": "N",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxBody",
+    "pf": "frmSMS",
+    "placeholderskin": "s0a2073684f348f68c4cf68845946032",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "N",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

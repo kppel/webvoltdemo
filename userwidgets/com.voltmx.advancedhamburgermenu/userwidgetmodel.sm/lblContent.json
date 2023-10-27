@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa91f83faecb4031856586409b19576a",
+    "_text_": "Drag App Content Here",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "lblContent",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": false,
+    "kuid": "ufad946b006047039c591101172d579d",
+    "name": "kony.ui.Label",
+    "parent": "advancedhamburgermenu",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b3": {}
+    },
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 8
+}

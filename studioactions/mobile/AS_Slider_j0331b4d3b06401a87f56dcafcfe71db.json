@@ -1,0 +1,26 @@
+{
+    "AS_Slider_j0331b4d3b06401a87f56dcafcfe71db": {
+        "id": "AS_Slider_j0331b4d3b06401a87f56dcafcfe71db",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "selectedvalue"
+        }],
+        "contextObj": {
+            "name": "frmBall",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g2419ab6da104320a9814f8c6117997f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_b852d6bb3add4c95a12d9d48c3f56710",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "ROTATE_SPEED = this.view.slider.selectedValue/100;\nconsole.log(ROTATE_SPEED);\nvoltmx.timer.cancel(\"delayAnimation_\");\nvoltmx.timer.schedule(\"delayAnimation_\", this.rotateImages(), ROTATE_SPEED, true);",
+            "parentId": null
+        }]
+    }
+}

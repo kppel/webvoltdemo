@@ -1,0 +1,31 @@
+{
+    "AS_Button_d906b372646b4bcc87994454d10f6314": {
+        "id": "AS_Button_d906b372646b4bcc87994454d10f6314",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSMS",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f174cef68974407aa62e97078caa04e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e86f3559f15c4124be0b1bb2b1000200",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "callSMS",
+            "display": "callSMS",
+            "inputparams": [{
+                "name": "eventobject",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

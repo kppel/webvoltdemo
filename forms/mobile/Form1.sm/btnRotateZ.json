@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "190dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc7376497ee54f13b468319d6b1bdc2d",
+    "_text_": "Rotate 3D Z",
+    "_top_": {
+        "type": "string",
+        "value": "340dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "83dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s85b73327414417795b83f345fae93aa",
+    "id": "btnRotateZ",
+    "ide_onClick": "AS_Button_d142adbc8dbd4a0b932172049c0b8ca3",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a8b1c7d3aac5465cafeb13d07b0b9040",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0g85f48e41e3845",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

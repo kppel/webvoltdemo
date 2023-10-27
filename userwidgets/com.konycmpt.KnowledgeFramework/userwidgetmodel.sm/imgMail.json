@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "19%"
+    },
+    "_skin_": "s0a35168fdc04e3e8fde8e1a1de33cf1",
+    "_src_": "mail_icon.png",
+    "_width_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "id": "imgMail",
+    "ide_onTouchEnd": "AS_Image_e2ce0dee45cd4f62a10be4074e1e91c4",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "ua4feb672be44c058e422a4c67d3aef0",
+    "name": "kony.ui.Image2",
+    "parent": "flexAcc2",
+    "pf": "userwidgetmodel",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

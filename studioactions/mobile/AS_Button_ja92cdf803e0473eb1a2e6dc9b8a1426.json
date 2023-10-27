@@ -1,0 +1,61 @@
+{
+    "AS_Button_ja92cdf803e0473eb1a2e6dc9b8a1426": {
+        "id": "AS_Button_ja92cdf803e0473eb1a2e6dc9b8a1426",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "TRANSFORM_ACTION_c3948ab3b9b94346a8ad4e6b8fd0b0bf",
+            "type": "TRANSFORM_ACTION",
+            "itemType": "FORM",
+            "itemId": "Form1",
+            "widgetId": "flxImage",
+            "itemKUID": "c5a50a9b6be94128b6860349042fd5ce",
+            "widgetKUID": "ib11d554670a4babac605b3a47d0642b",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "top": "",
+                "left": "",
+                "right": "",
+                "bottom": "",
+                "centerX": "",
+                "centerY": "",
+                "anchorPoint": {
+                    "x": "5",
+                    "y": "5"
+                },
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "width": "",
+                "height": "",
+                "minHeight": "",
+                "maxHeight": "",
+                "minWidth": "",
+                "maxWidth": "",
+                "rotate": "45",
+                "opacity": "100",
+                "displayAnimationId": "",
+                "duration": "250",
+                "delay": "0",
+                "iterationCount": "1",
+                "x": "5",
+                "y": "5"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "voltmx.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "TRANSFORM_ACTION_c3948ab3b9b94346a8ad4e6b8fd0b0bf",
+            "displayAnimationId": "FlexLayoutAnimation",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.flxImage"
+        }]
+    }
+}

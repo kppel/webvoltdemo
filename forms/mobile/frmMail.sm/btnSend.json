@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "92dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4a3717eeae645a3998ab3e76113b205",
+    "_text_": "メールソフト連携",
+    "_width_": {
+        "type": "string",
+        "value": "181dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s85b73327414417795b83f345fae93aa",
+    "id": "btnSend",
+    "ide_onClick": "AS_Button_b5f6dd8b334945849aabd3952fd372e3",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "hc2f149b10d6457288d996404a0895ad",
+    "name": "kony.ui.Button",
+    "parent": "flxBody",
+    "pf": "frmMail",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,27 @@
+{
+    "AS_Button_a8555c33598641efb151b2332b358b8f": {
+        "id": "AS_Button_a8555c33598641efb151b2332b358b8f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CopyfrmMail",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f8575ae7839d422fbbc2aa79048943c0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_d617533ee0bd477c9ce846cc17405823",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "sendMail",
+            "display": "sendMail",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,245 @@
+{
+    "classname": "hamMenu",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b3f0a9c2363f45bf9bdf1566bfe61e4b",
+                    "paramList": [
+                        {
+                            "name": "isVisible"
+                        }
+                    ],
+                    "propertyKey": "setMenuVisibility",
+                    "pw": {
+                        "displayName": "setMenuVisibility",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u05cdcc619424d949a9c3fd31d731d0b",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a80a68b49a6f4a41b0627c56a9f47166",
+                    "paramList": [
+                        {
+                            "name": "rowNumber"
+                        }
+                    ],
+                    "propertyKey": "onSegMenuRowClick",
+                    "pw": {
+                        "displayName": "onSegMenuRowClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u05cdcc619424d949a9c3fd31d731d0b",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g42df51e65be46d9a0d6fcca9e0d1345",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u05cdcc619424d949a9c3fd31d731d0b",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a8388220e31e4f5f8dd516670ed3f531",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onMenuItemClick",
+                    "pw": {
+                        "displayName": "onMenuItemClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u05cdcc619424d949a9c3fd31d731d0b",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "fbc8e6c52a1f4ec980af1bc702e7c7bc",
+                    "originalPropertyKey": "isfrmBallImgVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "isfrmBallImgVisible",
+                    "pw": {
+                        "dependencyConditions": {
+                            "conditions": []
+                        },
+                        "displayName": "isfrmBallImgVisible",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "u05cdcc619424d949a9c3fd31d731d0b",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d4ff27c4daa04cff803f18796e243242",
+                    "originalPropertyKey": "width",
+                    "propertyIndex": 1,
+                    "propertyKey": "flxHamMenuWidth",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Hamburger Menu Width",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxHamMenu",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u78001019e484c4d90f1320dffe65414"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b96eca991a4b4bc9a8cebadb2af4b215",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "flxHamMenuskin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Hamburger Menu Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxHamMenu",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u78001019e484c4d90f1320dffe65414"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c119d5bb413046abba7e6be1e869d5cb",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 3,
+                    "propertyKey": "data",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Master Data",
+                        "isHiddenInTool": false,
+                        "srcWidget": "segMenu",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Segment",
+                                "dataUpdaterId": "Masterdata-Segment",
+                                "popupId": "Masterdata-Segment",
+                                "type": "SegmentMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "u1f5343054f74ec8b60b601199e72130"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "a6486236dc2747ff84a6972f79f5fa73",
+                    "propertyKey": "flxHamMenu",
+                    "srcWgtKUID": "u78001019e484c4d90f1320dffe65414"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.voltmx",
+    "version": "1.2.2"
+}

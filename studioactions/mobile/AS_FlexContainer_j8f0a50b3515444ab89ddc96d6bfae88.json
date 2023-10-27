@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_j8f0a50b3515444ab89ddc96d6bfae88": {
+        "id": "AS_FlexContainer_j8f0a50b3515444ab89ddc96d6bfae88",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBall",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g2419ab6da104320a9814f8c6117997f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__a8c6e2c637cc47b3abdc1630d6b427db",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "rotateImages",
+            "display": "rotateImages",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

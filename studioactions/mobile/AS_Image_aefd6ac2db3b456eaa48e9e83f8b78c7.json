@@ -1,0 +1,34 @@
+{
+    "AS_Image_aefd6ac2db3b456eaa48e9e83f8b78c7": {
+        "id": "AS_Image_aefd6ac2db3b456eaa48e9e83f8b78c7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmBallImg",
+            "type": "forms",
+            "platform": null,
+            "KUID": "g9d5961534c44712a642e88851f9b85e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__jcbe40017a20480eba39467fe524ebf5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setImagePersion",
+            "display": "setImagePersion",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s752aa53a7924f1a8490ace00d1f437d",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "flexAPIs"
+    ],
+    "containerId": true,
+    "containerweight": 100,
+    "currentLocale": "default",
+    "device": "GalaxyS5",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "id": "tmpSegAPI",
+    "info": null,
+    "infoForSave": {
+        "channel": "mobile",
+        "templateType": "segments"
+    },
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "isvisible": true,
+    "kuid": "bdc850ba68704cd191d26f1ed6de4840",
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "platform": "android",
+    "prevDevice": "iPhone13ProMax",
+    "prevPlatform": "iphone",
+    "retainscrollposition": false,
+    "titleBarSkin": "s4d2eacf480849d5b8497e462707df29",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form"
+}

@@ -1,0 +1,163 @@
+{
+    "classname": "vuecarousel",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "g14c7dcd613e40869712e49b49efff2b",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ue36924aad7b400db30c840e39079479",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c88a277c06844fbda1110e3e1a2127f5",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onAfterSlideChange",
+                    "pw": {
+                        "displayName": "onAfterSlideChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ue36924aad7b400db30c840e39079479",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c915fc666a0a403b8d7f73593ba3feac",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onBeforeSlideChange",
+                    "pw": {
+                        "displayName": "onBeforeSlideChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ue36924aad7b400db30c840e39079479",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "fc975504bf2f4c54822fcd01ef2c4341",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onLastSlide",
+                    "pw": {
+                        "displayName": "onLastSlide",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ue36924aad7b400db30c840e39079479",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "h3ae46486e57411f898a313b13939811",
+                    "paramList": [
+                        {
+                            "name": "errObj"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onErrorCallback",
+                    "pw": {
+                        "displayName": "onErrorCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ue36924aad7b400db30c840e39079479",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [
+                            {
+                                "image": "https://cdn.corporatefinanceinstitute.com/assets/professional-corporation.jpeg"
+                            },
+                            {
+                                "image": "https://images.unsplash.com/photo-1589386417686-0d34b5903d23?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+                            },
+                            {
+                                "image": "https://cms.qut.edu.au/__data/assets/image/0003/1037316/for-you-feature.jpg"
+                            },
+                            {
+                                "image": "https://wi.wallpapertip.com/wsimgs/159-1598482_entrepreneurship-business-mindset-professional-professional-man.jpg"
+                            },
+                            {
+                                "image": "https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+                            }
+                        ],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Image URL",
+                                "columnHeaderType": "text",
+                                "columnID": "image",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "da3d843d62434cb48e499be66cf5bbd5"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "f0d1e9f0180b4710b3be47ffa0534f30",
+                    "originalPropertyKey": "masterData",
+                    "propertyIndex": 1,
+                    "propertyKey": "masterData",
+                    "pw": {
+                        "displayName": "Master Data",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "ue36924aad7b400db30c840e39079479",
+                    "type": "data grid",
+                    "value": 1
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.voltmx",
+    "version": "1.0.1"
+}

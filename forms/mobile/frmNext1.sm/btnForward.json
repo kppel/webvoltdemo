@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "8.72%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s809925fa80048429591c6b8195e8848",
+    "_top_": {
+        "type": "string",
+        "value": "823dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {},
+    "id": "btnForward",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c22f58c68f724cf48a6c9dde757b92ea",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "FlexScrollContainer0d8f1af1b00d645",
+    "pf": "frmNext1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "j0b5329599dc4ac4b7f1c6845c6db16f",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

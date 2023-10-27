@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "125px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_skin_": "s0a35168fdc04e3e8fde8e1a1de33cf1",
+    "_src_": "purple.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "125px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "img1",
+    "ide_onTouchStart": "AS_Image_aefd6ac2db3b456eaa48e9e83f8b78c7",
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c8582d5915e14363b1c6663bac15f1da",
+    "name": "kony.ui.Image2",
+    "parent": "flxBall",
+    "pf": "frmBallImg",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

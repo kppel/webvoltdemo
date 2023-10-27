@@ -1,0 +1,31 @@
+{
+    "AS_Form_cc6a151b844d471cbe0aa65a04ed0daf": {
+        "id": "AS_Form_cc6a151b844d471cbe0aa65a04ed0daf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCaro",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a8f33f082b1e4364a9aacb724cc7f075"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__af95893c067145ee85f91e12b3bf8957",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setData",
+            "display": "setData",
+            "inputparams": [{
+                "name": "data",
+                "value": " APIName2"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
